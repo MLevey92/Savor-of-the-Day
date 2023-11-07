@@ -1,0 +1,87 @@
+:root {
+    --forestGreen: #228B22;
+    --teaGreen: #CAE7B9;
+    --castletonGreen: #00563B;
+}
+
+body {
+    background-color: rgb(201, 246, 253);
+}
+
+.main {
+    margin: 8px;
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--teaGreen), var(--forestGreen));
+    padding: 8px;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+a {
+    color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+
+a:hover {
+    background-color: var(--castletonGreen);
+    color: white;
+}
+
+.box {
+    background-color: var(--teaGreen);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px lightgray;
+}
+
+#intolerances {
+    background-color: #278366;
+}
+
+.meal-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #278366;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px
+}
+
+.meal-photo {
+    height: 60px;
+    width: 80px;
+    border-radius: 10px
+}
+
+.meal-description {
+    background-color: #43ee82;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#todaysMeals {
+    padding: 10px;
+}
+
+#breakfastCookTime, #lunchCookTime, #dinnerCookTime {
+    color: #43ee82;
+}
+
+@media screen and (min-width: 745px) {
+    #links {
+        margin-top: 1.5em;
+    }
+}
